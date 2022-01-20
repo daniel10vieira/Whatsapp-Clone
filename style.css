@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #000A12;
+}
+
+.container{
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 375px;
+    height: 100%;
+    display: flexbox;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.header{
+    background:#051C2E;
+    padding: 8px;
+}
+
+.imgPerfil{
+    position: relative;
+    display: flex;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 200px;
+}
+
+.name{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background: #051C2E;
+}
+
+.subtitle{
+    text-align: center;
+    color: #5F686F;
+    background: #051C2E;
+    margin-bottom: 15px;
+}
+
+.openingHours{
+    background: #051C2E;
+    color: #5F686F;
+}
+
+.open{
+    text-align: center;
+    color: #00FF04;
+    background: #051C2E;
+    margin: 25px 3px 0px 105px;
+}
+
+.description{
+    text-align: center;
+    color: #5F686F;
+    background: #051C2E;
+    margin-bottom: 15px;
+}
+
+.buttonsCenter{
+    background: none;
+    margin: 20px;
+}
+
+.buttonsCenter:hover {
+    border-radius: 100%;
+    border: 8px solid;
+    color: lightgray;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.icon {
+    display: flex;
+    text-align: center;
+    color: green;
+    border-bottom: 1px solid gray;
+}
+
+.marginIcons{
+    margin-bottom: 25px;
+}
+
+
+.colorIcons{
+    color: #5F686F;
+    margin-bottom: 25px;
+    background: none;
+}
+
+.information{
+    margin: 15px 0 15px 195px;
+}
+
+.media{
+    background:#051C2E;
+    margin-top: 15px;
+    padding-bottom: 5px;
+}
+
+.display{
+    display: inline;
+    margin-left: 170px;
+}
+
+.buttonArrow{
+    background: none;
+    border: none;
+    color: gray;
+}
+
+.spaceBetween{
+    margin: 35px 60px;
+}
+
+.ndDivContainer{
+    background:#051C2E;
+    margin-top: 15px;
+}
+
+.day{
+    margin: 15px 0 10px 10px;
+    padding-top: 15px;
+}
+
+.mLinksDocs{
+    display: inline;
+    margin-left: 10px;
+}
+
+.iconRight{
+    display: inline;
+    margin-left: 185px;
+}
+
+.desmonstrativeImage{
+    margin-top: 15px;
+    max-width: 60px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    display: inline;
+}
+
+.margin{
+    display: flex;
+    margin: 10px ;
+}
+
+.mailTo{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #3CB371;
+}
+
+.linkedin{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #3CB371;
+}
+
+.github{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: #3CB371;
+}
+
+.options{
+    background:#051C2E;
+    margin-top: 15px;
+}
+
+.toggle{
+    display: none;
+}
+
+.toggle + label {
+    width: 32px;
+    height: 20px;
+    background: lightgrey;
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    padding: 2px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.toggle + label:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    display: block;
+    border-radius: 50%;
+    right: unset;
+    left: 2px;
+    top: 2px;
+    transition: 200ms;
+}
+
+.toggle:checked + label {
+    background: blue;
+}
+
+.toggle:checked + label:before {
+    content: '';
+    left: calc(100% - 22px);
+    box-shadow: 0 4px 4px rgb(0, 0, 0 / 100%);
+}
