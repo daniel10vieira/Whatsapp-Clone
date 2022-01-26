@@ -182,6 +182,8 @@ body {
 .options{
     background:#051C2E;
     margin-top: 15px;
+    padding: 2px;
+    width: 375px;
 }
 
 .toggle{
@@ -192,7 +194,6 @@ body {
     width: 32px;
     height: 20px;
     background: lightgrey;
-    display: block;
     position: relative;
     border-radius: 20px;
     padding: 2px;
@@ -206,7 +207,7 @@ body {
     width: 20px;
     height: 20px;
     background: white;
-    display: block;
+    display: flex;
     border-radius: 50%;
     right: unset;
     left: 2px;
@@ -215,11 +216,205 @@ body {
 }
 
 .toggle:checked + label {
-    background: blue;
+    background: gray;
 }
 
 .toggle:checked + label:before {
     content: '';
     left: calc(100% - 22px);
     box-shadow: 0 4px 4px rgb(0, 0, 0 / 100%);
+}
+
+.silence{
+    display: block;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+    border-width: 100%;
+}
+
+.checkbox{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 330px;
+    margin-top: -25px;
+    width: 40px;
+}
+
+.notifications{
+    display: block;
+    margin: 15px 0 15px 10px;
+}
+
+.visible{
+    display: block;
+    margin: 15px 0 15px 10px;
+}
+
+.messenger{
+    display: block;
+    margin: 15px 0 0 10px;
+}
+
+.config{
+    background: #051C2E;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.temp{
+    display: inline;
+    margin-left: 10px;
+}
+
+.disable{
+    display: flex;
+    color: gray;
+    margin-left: 10px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid gray;
+    font-size: 15px;
+}
+
+.clock{
+    display: flex;
+    margin-left: 340px;
+    margin-top: -50px;
+}
+
+.crip{
+    display: block;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.warning{
+    display: flex;
+    color: gray;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.locked{
+    display: flex;
+    margin-left: 340px;
+    margin-top: -20px;
+}
+
+.details{
+    background: #051C2E;
+    margin-top: 15px;
+}
+
+.message{
+    margin-left: 10px;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+}
+
+.cellphone{
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.profession{
+    display: block;
+    margin-top: 10px;
+}
+
+.dateOfDay{
+    display: block;
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.icons{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+
+.number{
+    display: flex;
+}
+
+.text{
+    display: inline;
+}
+
+.initial{
+    margin-right: 15px;
+    margin-left: 190px;
+}
+
+.end{
+    margin-left: 15px;
+}
+
+.group{
+    margin-top: 15px;
+    background: #051C2E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profilePhoto{
+    background: gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 15px 20px 15px 15px
+}
+
+.technology{
+    display: flex;
+    margin-top: -60px;
+    margin-left: 90px;
+}
+
+.members{
+    display: flex;
+    margin-top: 6px;
+    margin-left: 90px;
+    color: gray;
+}
+
+.ban{
+    background: #051C2E;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.block{
+    display: inline;
+    margin-left: 25px;
+    color: red;
+}
+
+.prohibited{
+    color: red;
+}
+
+.company{
+    background: #051C2E;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.thumbs{
+    color: red;
+    margin-left: 10px;
+}
+
+.denunciate{
+    display: inline;
+    margin-left: 25px;
 }
