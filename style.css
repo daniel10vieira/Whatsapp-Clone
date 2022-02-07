@@ -192,7 +192,7 @@ body {
 
 .toggle + label {
     width: 32px;
-    height: 20px;
+    height: 15px;
     background: lightgrey;
     position: relative;
     border-radius: 20px;
@@ -204,19 +204,19 @@ body {
 .toggle + label:before {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     background: white;
     display: flex;
     border-radius: 50%;
     right: unset;
-    left: 2px;
-    top: 2px;
+    left: 0px;
+    top: -4px;
     transition: 200ms;
 }
 
 .toggle:checked + label {
-    background: gray;
+    background: #008069;
 }
 
 .toggle:checked + label:before {
